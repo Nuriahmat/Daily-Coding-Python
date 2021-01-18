@@ -1,0 +1,12 @@
+# list
+list01 = list(range(10))
+list02 = list(range(1, 10, 2))
+print(list02)
+list03 = list('abcdaef')
+print(list03)
+print(list02.index(5))
+print(list03.count('a'))
+print(list01[:3])
+print(list01[::-1])
+print(list01[3:])
+print(list01[1:4])
